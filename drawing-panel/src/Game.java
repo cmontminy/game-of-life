@@ -20,13 +20,15 @@ public class Game {
         System.out.println("Launching game with a board of size " + xSize + " x " + ySize);
         startGame(xSize, ySize);
     }
-
+    
+    // TODO: find a better way to streamline all of this
     private static void startGame(int x, int y) {
         board = new Grid(x / pixelSize, y / pixelSize);
         makeRandomSquares(100);
         updateGame(board);
     }
 
+    // TODO: maybe ensure that each square is unique
     private static void makeRandomSquares(int numSquares) {
         for (int i = 0; i < numSquares; i++) {
             Random rand = new Random();
@@ -94,7 +96,7 @@ public class Game {
             }
         }
     }
-
+    // TODO: find a better way to do this
     private static Color convertToColor(int colorNum) {
         switch (colorNum) {
         case 1:
