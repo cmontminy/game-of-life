@@ -9,3 +9,4 @@ TODO:
 - Add user functionality for placing shapes and blocks (for java side)
 - Pause / play functions
 - Make the colors prettier
+- clear function
