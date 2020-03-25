@@ -10,3 +10,4 @@ TODO:
 - Pause / play functions
 - Make the colors prettier
 - clear function
+- color options
